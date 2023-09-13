@@ -27,7 +27,7 @@ const requestForwarder = async (url, reqData) => {
   }
 };
 
-export const on_select = async (req, res) => {
+export const on_search = async (req, res) => {
   try {
     const reqData = req.body;
     sendAcknowledgement(res, "ACK");
